@@ -978,7 +978,7 @@
                             </div>
                         </div>
                         <div class='textarea-box'>
-                            <textarea id='textarea' ref='textarea' :value='isShowCode ? luastr: ""'></textarea>
+                            <textarea id='textarea' ref='textarea' :value='isShowCode ? luastr: ""' readonly></textarea>
                             <div class='check-show-code' v-show='!isShowCode'>
                                 <button class='textarea-btn' @click='isShowCode = true'>แสดงสคริปต์</button>
                                 <span
